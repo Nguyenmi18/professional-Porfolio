@@ -1,0 +1,140 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: dodgerblue;
+}
+
+header h1 {
+  padding: 5px;
+  margin: 0;
+  font-size: 50px;
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.hero {
+  background: gray;
+  display: flex;
+  min-height: 25vh;
+  padding: 2%;
+  justify-content: flex-end;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.hero div {
+  flex: 0 0 90%;
+}
+
+.hero h3 {
+  background-color: honeydew;
+  margin: 0;
+  padding: 5px;
+  font-size: 35px;
+  line-height: 1.2;
+  display: inline;
+}
+
+main {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pageSection {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.pageSection h2 {
+  border-right: 5px solid black;
+  font-size: 50px;
+  line-height: 1;
+  padding: 5px;
+  text-align: right;
+  flex: 0 0 15%;
+}
+.pageSection div {
+  flex: 0 0 60%;
+}
+.pageSection p {
+  margin-bottom: 20px;
+}
+p {
+  margin: 0x;
+}
+.workContainner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work {
+  display: flex;
+  min-height: 200px;
+  max-height: 200px;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  flex-basis: calc(50%-16px);
+  border: 5px solid aquamarine;
+  background-size: 150%;
+}
+.work:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+.work div {
+  padding: 10px;
+  background-color: aquamarine;
+}
+.work h3 {
+  font-size: 30px;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact a {
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5px;
+}
+.ifitnut {
+  background-image: url("./images/ifitnut.png");
+}
+.dailyScheduler {
+  background-image: url("./images/workDayScheduler.png");
+}
+.codequiz {
+  background-image: url("./images/codeQuiz.png");
+}
+.passwordGenerator {
+  background-image: url("./images/passwordGenerator.png");
+}
+.budgetTracker {
+  background-image: url("./images/budgetTracker.png");
+}
