@@ -138,3 +138,89 @@ p {
 .budgetTracker {
   background-image: url("./images/budgetTracker.png");
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      align-items: center;
+      background-color: dodgerblue;
+    }
+
+    header h1 {
+      padding: 5px;
+      margin: 0;
+      font-size: 20px;
+      line-height: 1;
+    }
+    
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      padding: 5px;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+
+    .hero h3 {
+      background-color: honeydew;
+      margin: 0;
+      padding: 5px;
+      font-size: 28px;
+      line-height: 1.2;
+      display: inline;
+    }
+
+    .pageSection h2 {
+      border-right: 5px solid black;
+      font-size: 25px;
+      line-height: 1;
+      padding: 5px;
+      text-align: right;
+      flex: 0 0 15%;
+    }
+
+    .work {
+      display: flex;
+      min-height: 150px;
+      max-height: 150px;
+      width: 150px;
+      align-items: flex-end;
+      padding: 0 0 20px 0;
+      margin: 5px;
+      text-decoration: none;
+      font-size: 20px;
+      flex-basis: calc(40%-16px);
+      border: 5px solid aquamarine;
+      background-size: 150%;
+    }
+
+    .work:first-child {
+      min-height: 150px;
+      flex-basis: 100%;
+    }
+
+    .work h3 {
+      font-size: 18px;
+    }
+
+    .contact a {
+      font-size: 25px;
+      padding: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin: 0.5px;
+    }
+}
