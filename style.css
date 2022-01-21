@@ -126,6 +126,11 @@ p {
 .ifitnut {
   background-image: url("./images/ifitnut.png");
 }
+
+.shmovies {
+  background-image: url("./images/shmovies.png");
+}
+
 .dailyScheduler {
   background-image: url("./images/workDayScheduler.png");
 }
